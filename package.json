@@ -1,0 +1,19 @@
+{
+  "name": "supreme-winner",
+  "version": "1.0.0",
+  "description": "Simple application for testing Rollup.js.",
+  "main": "rollup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreyluiz/supreme-winner.git"
+  },
+  "author": "Andrey Luiz <andreyluiz.developer@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreyluiz/supreme-winner/issues"
+  },
+  "homepage": "https://github.com/andreyluiz/supreme-winner#readme"
+}
