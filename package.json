@@ -4,7 +4,7 @@
   "description": "Simple application for testing Rollup.js.",
   "main": "rollup.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "rollup -c --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/andreyluiz/supreme-winner/issues"
   },
-  "homepage": "https://github.com/andreyluiz/supreme-winner#readme"
+  "homepage": "https://github.com/andreyluiz/supreme-winner#readme",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "riot": "^2.5.0",
+    "rollup": "^0.34.1",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-commonjs": "^3.3.1",
+    "rollup-plugin-node-resolve": "^1.7.1",
+    "rollup-plugin-riot": "^0.4.0",
+    "rollup-watch": "^2.5.0"
+  }
 }
